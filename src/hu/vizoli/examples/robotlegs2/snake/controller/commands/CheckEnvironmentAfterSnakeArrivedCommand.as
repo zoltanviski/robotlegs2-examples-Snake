@@ -9,7 +9,6 @@ package hu.vizoli.examples.robotlegs2.snake.controller.commands
 	import hu.vizoli.examples.robotlegs2.snake.model.FoodModel;
 	import hu.vizoli.examples.robotlegs2.snake.model.GameModel;
 	import hu.vizoli.examples.robotlegs2.snake.model.SnakeModel;
-	import robotlegs.bender.bundles.mvcs.Command;
 	
 	/**
 	 * CheckEnvironmentAfterSnakeArrivedCommand

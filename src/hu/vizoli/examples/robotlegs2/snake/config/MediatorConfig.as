@@ -4,16 +4,13 @@ package hu.vizoli.examples.robotlegs2.snake.config
 	import hu.vizoli.examples.robotlegs2.snake.view.FieldView;
 	import hu.vizoli.examples.robotlegs2.snake.view.FoodMediator;
 	import hu.vizoli.examples.robotlegs2.snake.view.FoodView;
-	import hu.vizoli.examples.robotlegs2.snake.view.MainMediator;
-	import hu.vizoli.examples.robotlegs2.snake.model.FieldModel;
-	import hu.vizoli.examples.robotlegs2.snake.model.LevelModel;
 	import hu.vizoli.examples.robotlegs2.snake.view.GameLayoutMediator;
 	import hu.vizoli.examples.robotlegs2.snake.view.GameLayoutView;
+	import hu.vizoli.examples.robotlegs2.snake.view.MainMediator;
 	import hu.vizoli.examples.robotlegs2.snake.view.SnakeMediator;
 	import hu.vizoli.examples.robotlegs2.snake.view.SnakeView;
 	import robotlegs.bender.extensions.mediatorMap.api.IMediatorMap;
 	import robotlegs.bender.framework.api.IConfig;
-	import robotlegs.bender.framework.api.IInjector;
 	
 	/**
 	 * Mediators config

@@ -1,6 +1,5 @@
 package hu.vizoli.examples.robotlegs2.snake.view 
 {
-	import flash.events.Event;
 	import hu.vizoli.examples.robotlegs2.snake.controller.events.FieldEvent;
 	import hu.vizoli.examples.robotlegs2.snake.controller.events.FoodEvent;
 	import hu.vizoli.examples.robotlegs2.snake.model.FieldModel;

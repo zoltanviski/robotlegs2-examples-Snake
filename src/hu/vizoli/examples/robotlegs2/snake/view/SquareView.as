@@ -1,6 +1,5 @@
 package hu.vizoli.examples.robotlegs2.snake.view 
 {
-	import flash.display.Sprite;
 	import hu.vizoli.examples.robotlegs2.snake.base.BaseView;
 	
 	/**

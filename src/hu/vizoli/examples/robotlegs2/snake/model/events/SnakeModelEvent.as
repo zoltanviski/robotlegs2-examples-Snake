@@ -1,7 +1,6 @@
 package hu.vizoli.examples.robotlegs2.snake.model.events
 {
 	import flash.events.Event;
-	import hu.vizoli.examples.robotlegs2.snake.model.vo.SnakeVO;
 	
 	/**
 	 * SnakeModelEvent

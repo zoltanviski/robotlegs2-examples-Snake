@@ -1,10 +1,6 @@
 package hu.vizoli.examples.robotlegs2.snake.view 
 {
-	import flash.display.Sprite;
-	import flash.geom.Point;
 	import hu.vizoli.examples.robotlegs2.snake.base.BaseView;
-	import hu.vizoli.examples.robotlegs2.snake.model.vo.FieldVO;
-	import hu.vizoli.examples.robotlegs2.snake.model.vo.FoodVO;
 	
 	/**
 	 * FoodView

@@ -2,7 +2,6 @@ package hu.vizoli.examples.robotlegs2.snake.view
 {
 	import caurina.transitions.Tweener;
 	import com.utils.HitTest;
-	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.geom.Point;
 	import hu.vizoli.examples.robotlegs2.snake.base.BaseView;
