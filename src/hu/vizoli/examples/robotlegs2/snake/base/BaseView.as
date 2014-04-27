@@ -17,7 +17,7 @@ package hu.vizoli.examples.robotlegs2.snake.base
 		//--------------------------------------------------------------------------
 		
 		/**
-		 * Constructor
+		 * BaseView
 		 */
 		public function BaseView() 
 		{

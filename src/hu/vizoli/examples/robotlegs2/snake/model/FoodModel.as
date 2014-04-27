@@ -24,7 +24,7 @@ package hu.vizoli.examples.robotlegs2.snake.model
 		//--------------------------------------------------------------------------
 		
 		/**
-		 * Constructor
+		 * FoodModel
 		 */
 		public function FoodModel() 
 		{

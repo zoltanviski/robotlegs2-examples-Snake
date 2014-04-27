@@ -121,12 +121,6 @@ package hu.vizoli.examples.robotlegs2.snake.controller.commands
 			return false;
 		}
 		
-		//--------------------------------------------------------------------------
-		//
-		//  Private methods
-		//
-		//--------------------------------------------------------------------------
-		
 		/**
 		 * Check that the snake in field or not
 		 * 

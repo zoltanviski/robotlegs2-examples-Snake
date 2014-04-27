@@ -20,7 +20,7 @@ package hu.vizoli.examples.robotlegs2.snake.base
 		//--------------------------------------------------------------------------
 		
 		/**
-		 * Constructor
+		 * BaseCommand
 		 */
 		public function BaseCommand() 
 		{

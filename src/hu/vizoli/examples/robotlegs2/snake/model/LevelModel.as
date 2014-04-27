@@ -20,10 +20,7 @@ package hu.vizoli.examples.robotlegs2.snake.model
 		/**
 		 * Return the current level
 		 */
-		public function get currentLevel():uint 
-		{
-			return this._currentLevel;
-		}
+		public function get currentLevel():uint { return this._currentLevel; }
 		
 		/**
 		 * @private

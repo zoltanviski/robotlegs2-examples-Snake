@@ -19,7 +19,7 @@ package hu.vizoli.examples.robotlegs2.snake.model
 		//--------------------------------------------------------------------------
 		
 		/**
-		 * Constructor
+		 * FieldModel
 		 */
 		public function FieldModel():void
 		{
@@ -35,12 +35,24 @@ package hu.vizoli.examples.robotlegs2.snake.model
 		//
 		//--------------------------------------------------------------------------
 		
+		/**
+		 * Return the field
+		 */
 		public function get field():FieldVO { return this._fieldVO; }
 		
+		/**
+		 * Return the squareSize
+		 */
 		public function get squareSize():uint { return this._fieldVO.squareSize; }
 		
+		/**
+		 * Return the rowCount
+		 */
 		public function get rowCount():uint { return this._fieldVO.rowCount; }
 		
+		/**
+		 * Return the coloumnCount
+		 */
 		public function get coloumnCount():uint { return this._fieldVO.coloumnCount; }
 		
 	}
