@@ -41,7 +41,7 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		//--------------------------------------------------------------------------
 		
 		/**
-		 * Create children
+		 * @inheritDoc
 		 */
 		override public function createChildren():void
 		{

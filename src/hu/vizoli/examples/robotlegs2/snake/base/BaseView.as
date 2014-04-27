@@ -31,7 +31,7 @@ package hu.vizoli.examples.robotlegs2.snake.base
 		//--------------------------------------------------------------------------
 		
 		/**
-		 * Create children
+		 * @inheritDoc
 		 */
 		public function createChildren():void
 		{

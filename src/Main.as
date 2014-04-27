@@ -16,7 +16,7 @@ package
 	/**
 	 * Robotlegs2 Example - Snake game prototype
 	 * 
-	 * @author vizoli
+	 * @author vizoli ( Name: Zoltan Viski, Site: vizoli.hu, Github: https://github.com/zoltanviski )
 	 */
 	[ SWF( width='820', height='620', backgroundColor='0xffffff', framerate='30' ) ]
 	public class Main extends Sprite 
@@ -50,7 +50,7 @@ package
 		//--------------------------------------------------------------------------
 		
 		/**
-		 * Create children
+		 * @inheritDoc
 		 */
 		public function createChildren():void
 		{

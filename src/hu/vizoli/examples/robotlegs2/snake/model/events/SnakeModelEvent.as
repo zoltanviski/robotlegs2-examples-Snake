@@ -34,7 +34,7 @@ package hu.vizoli.examples.robotlegs2.snake.model.events
 		//--------------------------------------------------------------------------
 		
 		/**
-		 * Clone the event
+		 * @inheritDoc
 		 */
 		override public function clone():Event
 		{

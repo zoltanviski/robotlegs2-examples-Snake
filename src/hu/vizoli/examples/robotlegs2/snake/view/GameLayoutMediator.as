@@ -19,7 +19,7 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		//--------------------------------------------------------------------------
 		
 		/**
-		 * Initialize the mediator
+		 * @inheritDoc
 		 */
 		override public function initialize():void
 		{

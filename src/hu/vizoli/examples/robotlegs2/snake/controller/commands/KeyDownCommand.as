@@ -29,7 +29,7 @@ package hu.vizoli.examples.robotlegs2.snake.controller.commands
 		//--------------------------------------------------------------------------
 		
 		/**
-		 * Execute the command
+		 * @inheritDoc
 		 */
 		override public function execute():void
 		{
