@@ -19,8 +19,14 @@ package hu.vizoli.examples.robotlegs2.snake.controller.commands
 		[Inject]
     	public var foodModel:FoodModel;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * execute
+		 * Execute the command
 		 */
 		override public function execute():void
 		{

@@ -14,13 +14,28 @@ package hu.vizoli.examples.robotlegs2.snake.view
 	{
 		private var _foodView:FoodView;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * FieldView
+		 */
 		public function FieldView() 
 		{
 			this.createChildren();
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * createChildren
+		 * Create children
 		 */
 		override public function createChildren():void
 		{
@@ -29,8 +44,14 @@ package hu.vizoli.examples.robotlegs2.snake.view
 			this._foodView = new FoodView();
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Public methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * initField
+		 * Init
 		 * 
 		 * @param	field
 		 */
@@ -52,7 +73,7 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		}
 		
 		/**
-		 * createFood
+		 * Create food
 		 * 
 		 * @param	food
 		 * @param	field 

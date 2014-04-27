@@ -22,8 +22,14 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		[Inject]
 		public var fieldModel:FieldModel;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 *  initialize
+		 * Initialize the mediator
 		 */
 		override public function initialize():void
 		{
@@ -37,8 +43,14 @@ package hu.vizoli.examples.robotlegs2.snake.view
 			this.addViewListener( SnakeEvent.MOVEMENT_FINISHED, this.viewSnakeEventHandler, SnakeEvent);
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Private methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * snakeEventHandler
+		 * SnakeEvent handler
 		 * 
 		 * @param	e
 		 */
@@ -61,7 +73,7 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		}
 		
 		/**
-		 * gameEventHandler
+		 * GameEvent handler
 		 * 
 		 * @param	e
 		 */
@@ -80,7 +92,7 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		}
 		
 		/**
-		 * viewSnakeEventHandler
+		 * ViewSnakeEvent handler
 		 * 
 		 * @param	e
 		 */

@@ -12,6 +12,15 @@ package hu.vizoli.examples.robotlegs2.snake.model
 	{
 		private var _fieldVO:FieldVO;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * Constructor
+		 */
 		public function FieldModel():void
 		{
 			this._fieldVO 				= new FieldVO();
@@ -19,6 +28,12 @@ package hu.vizoli.examples.robotlegs2.snake.model
 			this._fieldVO.rowCount 		= 30;
 			this._fieldVO.coloumnCount 	= 40;
 		}
+		
+		//--------------------------------------------------------------------------
+		//
+		//  Getters / Setters
+		//
+		//--------------------------------------------------------------------------
 		
 		public function get field():FieldVO { return this._fieldVO; }
 		

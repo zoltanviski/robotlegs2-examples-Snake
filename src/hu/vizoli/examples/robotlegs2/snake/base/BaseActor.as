@@ -13,11 +13,21 @@ package hu.vizoli.examples.robotlegs2.snake.base
 		[Inject]
 		public var eventDispatcher:IEventDispatcher;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Protected methods
+		//
+		//--------------------------------------------------------------------------
 		
-		protected function dispatch( event:Event ):void
+		/**
+		 * Dispatch event
+		 * 
+		 * @param	event
+		 */
+		protected function dispatch( e:Event ):void
 		{
-			if ( this.eventDispatcher.hasEventListener( event.type ) )
-				this.eventDispatcher.dispatchEvent( event );
+			if ( this.eventDispatcher.hasEventListener( e.type ) )
+				this.eventDispatcher.dispatchEvent( e );
 		}
 	}
 }

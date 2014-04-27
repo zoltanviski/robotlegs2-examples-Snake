@@ -12,13 +12,28 @@ package hu.vizoli.examples.robotlegs2.snake.view
 	{
 		private var _square:SquareBG;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * SquareView
+		 */
 		public function SquareView() 
 		{
 			this.createChildren();
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * createChildren
+		 * Create children
 		 */
 		override public function createChildren():void
 		{

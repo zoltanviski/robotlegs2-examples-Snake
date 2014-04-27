@@ -21,21 +21,42 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		private var _parts:Vector.<SnakePartView> = new Vector.<SnakePartView>( 200, true );
 		private var _lastPartPosition:Point = new Point();
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * SnakeView
+		 */
 		public function SnakeView() 
 		{
 			
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * createChildren
+		 * Create children
 		 */
 		override public function createChildren():void
 		{
 			super.createChildren();
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Public methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * init
+		 * Init
 		 * 
 		 * @param	snake
 		 * @param	field
@@ -82,7 +103,7 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		}
 		
 		/**
-		 * move
+		 * Move the snake
 		 * 
 		 * @param	snake
 		 * @param	field
@@ -118,9 +139,9 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		}
 		
 		/**
-		 * growth
+		 * Growth snake, when reach a food
 		 * 
-		 * @param	actualPosition
+		 * @param	direction
 		 */
 		public function growth( direction:String ):void
 		{
@@ -145,7 +166,7 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		}
 		
 		/**
-		 * killSnake
+		 * Kill the snake
 		 */
 		public function killSnake():void
 		{
@@ -161,8 +182,14 @@ package hu.vizoli.examples.robotlegs2.snake.view
 			}
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Private methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * onEnterFrame
+		 * EnterFrame handler
 		 * 
 		 * @param	e
 		 */
@@ -179,7 +206,7 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		}
 		
 		/**
-		 * moveCompleteHandler
+		 * When the snake movement completed
 		 */
 		private function moveCompleteHandler():void
 		{
@@ -188,7 +215,7 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		}
 		
 		/**
-		 * move
+		 * Move the front of the snake
 		 * 
 		 * @param	actualPosition
 		 * @param	direction

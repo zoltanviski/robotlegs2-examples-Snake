@@ -15,6 +15,15 @@ package hu.vizoli.examples.robotlegs2.snake.model
 	{
 		private var _snakeVO:SnakeVO;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * SnakeModel
+		 */
 		public function SnakeModel() 
 		{
 			this._snakeVO 					= new SnakeVO();
@@ -24,6 +33,15 @@ package hu.vizoli.examples.robotlegs2.snake.model
 			this._snakeVO.currentPosition 	= new Point( 3, 5 );
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Public methods
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * Update the current position
+		 */
 		public function updateCurrentPosition():void 
 		{
 			var newCurrentPosition:Point = new Point();
@@ -56,6 +74,11 @@ package hu.vizoli.examples.robotlegs2.snake.model
 			this.dispatch( new SnakeModelEvent( SnakeModelEvent.UPDATED_CURRENT_POSITION ) );
 		}
 		
+		/**
+		 * Set direction
+		 * 
+		 * @param	value
+		 */
 		public function setDirection( value:String ):void
 		{ 
 			if ( value != "" )
@@ -66,6 +89,15 @@ package hu.vizoli.examples.robotlegs2.snake.model
 			}
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Getters / Setters
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * Return the snake
+		 */
 		public function get snake():SnakeVO { return this._snakeVO; }
 	}
 

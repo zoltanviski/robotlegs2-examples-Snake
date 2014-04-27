@@ -12,6 +12,12 @@ package hu.vizoli.examples.robotlegs2.snake.model.events
 	{
 		public static const UPDATED_CURRENT_POSITION:String = "updatedCurrentPosition";
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
 		 * SnakeModelEvent
 		 * 
@@ -22,8 +28,14 @@ package hu.vizoli.examples.robotlegs2.snake.model.events
 			super(type);
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * clone
+		 * Clone the event
 		 */
 		override public function clone():Event
 		{

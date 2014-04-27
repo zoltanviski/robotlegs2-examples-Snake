@@ -14,8 +14,14 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		[Inject]
 		public var view:Main;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 *  initialize
+		 * Initialize the mediator
 		 */
 		override public function initialize():void
 		{
@@ -26,8 +32,14 @@ package hu.vizoli.examples.robotlegs2.snake.view
 			this.eventMap.mapListener( this.view.stage, KeyboardEvent.KEY_DOWN, this.keyboardEventHandler);
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Private methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * keyboardEventHandler
+		 * KeyboardEvent handler
 		 * 
 		 * @param	e
 		 */

@@ -17,14 +17,29 @@ package hu.vizoli.examples.robotlegs2.snake.model
 		
 		private var _foodVO:FoodVO;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * Constructor
+		 */
 		public function FoodModel() 
 		{
 			this._foodVO 			= new FoodVO();
 			this._foodVO.position 	= new Point( 5, 6 );
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Public methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * generateFood
+		 * Generate food
 		 */
 		public function generateFood():void
 		{
@@ -36,6 +51,15 @@ package hu.vizoli.examples.robotlegs2.snake.model
 			this.dispatch( new FoodEvent( FoodEvent.CREATE ) );
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Getters / Setters
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * Return the food
+		 */
 		public function get food():FoodVO { return _foodVO; }
 		
 	}

@@ -15,13 +15,28 @@ package hu.vizoli.examples.robotlegs2.snake.view
 	{
 		private var _food:Food;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * FoodView
+		 */
 		public function FoodView() 
 		{
 			this.createChildren();
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * createChildren
+		 * Create children
 		 */
 		override public function createChildren():void
 		{

@@ -11,11 +11,23 @@ package hu.vizoli.examples.robotlegs2.snake.model
 	{
 		private var _currentLevel:uint = 1;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Getters / Setters
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * Return the current level
+		 */
 		public function get currentLevel():uint 
 		{
 			return this._currentLevel;
 		}
 		
+		/**
+		 * @private
+		 */
 		public function set currentLevel( value:uint ):void 
 		{
 			this._currentLevel = value;

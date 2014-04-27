@@ -23,8 +23,14 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		[Inject]
 		public var foodModel:FoodModel;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 *  initialize
+		 * Initialize the mediator
 		 */
 		override public function initialize():void
 		{
@@ -33,8 +39,16 @@ package hu.vizoli.examples.robotlegs2.snake.view
 			this.addContextListener( FoodEvent.CREATE, this.createFood, FoodEvent );
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Private methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * createFood
+		 * Create food
+		 * 
+		 * @param	e
 		 */
 		private function createFood( e:FoodEvent ):void
 		{
@@ -42,7 +56,7 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		}
 		
 		/**
-		 * initField
+		 * Init the field
 		 * 
 		 * @param	e
 		 */

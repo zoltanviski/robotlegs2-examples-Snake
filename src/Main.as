@@ -24,6 +24,15 @@ package
 		private var _context:IContext;
 		private var _gameLayoutView:GameLayoutView;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+	
+		/**
+		 * Main
+		 */
 		public function Main():void 
 		{
 			this._context = new Context()
@@ -34,8 +43,31 @@ package
 			else this.addEventListener( Event.ADDED_TO_STAGE, this.init );
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Public methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * init
+		 * Create children
+		 */
+		public function createChildren():void
+		{
+			this._gameLayoutView 	= new GameLayoutView();
+			this._gameLayoutView.x 	= 10;
+			this._gameLayoutView.y 	= 10;
+			this.addChild( this._gameLayoutView );
+		}
+		
+		//--------------------------------------------------------------------------
+		//
+		//  Private methods
+		//
+		//--------------------------------------------------------------------------
+	
+		/**
+		 * Init
 		 * 
 		 * @param	e
 		 */
@@ -46,17 +78,7 @@ package
 			this.stage.scaleMode 	= StageScaleMode.NO_SCALE;
 			this.stage.align 		= StageAlign.TOP_LEFT;
 		}
-		
-		/**
-		 * createChildren
-		 */
-		public function createChildren():void
-		{
-			this._gameLayoutView 	= new GameLayoutView();
-			this._gameLayoutView.x 	= 10;
-			this._gameLayoutView.y 	= 10;
-			this.addChild( this._gameLayoutView );
-		}
+	
 	}
 	
 }

@@ -33,8 +33,14 @@ package hu.vizoli.examples.robotlegs2.snake.controller.commands
 		[Inject]
     	public var foodModel:FoodModel;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * execute
+		 * Execute the command
 		 */
 		override public function execute():void
 		{
@@ -45,8 +51,14 @@ package hu.vizoli.examples.robotlegs2.snake.controller.commands
 			this.checkReachFood( this.gameModel.nextDirection );
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Private methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * checkReachFood
+		 * Check that reach a food or not
 		 * 
 		 * @param	direction
 		 */
@@ -109,6 +121,12 @@ package hu.vizoli.examples.robotlegs2.snake.controller.commands
 			
 			return false;
 		}
+		
+		//--------------------------------------------------------------------------
+		//
+		//  Private methods
+		//
+		//--------------------------------------------------------------------------
 		
 		/**
 		 * Check that the snake in field or not

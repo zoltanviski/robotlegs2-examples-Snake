@@ -14,13 +14,28 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		private var _fieldView:FieldView;
 		private var _snakeView:SnakeView;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * GameLayoutView
+		 */
 		public function GameLayoutView() 
 		{
 			this.createChildren();
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * createChildren
+		 * Create children
 		 */
 		override public function createChildren():void
 		{

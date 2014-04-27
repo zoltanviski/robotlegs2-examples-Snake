@@ -11,6 +11,12 @@ package hu.vizoli.examples.robotlegs2.snake.controller.events
 	{
 		public static const CREATE:String = "create";
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
 		 * FoodEvent
 		 * 
@@ -21,8 +27,14 @@ package hu.vizoli.examples.robotlegs2.snake.controller.events
 			super(type);
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * clone
+		 * Clone the event
 		 */
 		override public function clone():Event
 		{

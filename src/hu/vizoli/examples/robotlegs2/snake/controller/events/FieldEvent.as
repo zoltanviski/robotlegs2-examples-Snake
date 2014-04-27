@@ -11,6 +11,12 @@ package hu.vizoli.examples.robotlegs2.snake.controller.events
 	{
 		public static const INIT:String = "init";
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
 		 * FieldEvent
 		 * 
@@ -21,8 +27,14 @@ package hu.vizoli.examples.robotlegs2.snake.controller.events
 			super(type);
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * clone
+		 * Clone the event
 		 */
 		override public function clone():Event
 		{

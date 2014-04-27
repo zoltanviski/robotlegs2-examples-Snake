@@ -17,6 +17,12 @@ package hu.vizoli.examples.robotlegs2.snake.controller.events
 		
 		public var snakeVO:SnakeVO;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
 		 * SnakeEvent
 		 * 
@@ -29,8 +35,14 @@ package hu.vizoli.examples.robotlegs2.snake.controller.events
 			this.snakeVO = snakeVO;
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * clone
+		 * Clone the event
 		 */
 		override public function clone():Event
 		{

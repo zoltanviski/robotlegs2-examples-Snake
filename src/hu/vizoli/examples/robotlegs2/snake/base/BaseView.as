@@ -10,13 +10,28 @@ package hu.vizoli.examples.robotlegs2.snake.base
 	 */
 	public class BaseView extends Sprite implements IBaseView
 	{
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * Constructor
+		 */
 		public function BaseView() 
 		{
 			super();
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Public methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * createChildren
+		 * Create children
 		 */
 		public function createChildren():void
 		{

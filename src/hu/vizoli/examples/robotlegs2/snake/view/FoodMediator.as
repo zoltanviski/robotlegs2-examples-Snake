@@ -15,8 +15,14 @@ package hu.vizoli.examples.robotlegs2.snake.view
 		[Inject]
 		public var view:FoodView;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 *  initialize
+		 * Initialize the mediator
 		 */
 		override public function initialize():void
 		{

@@ -18,8 +18,14 @@ package hu.vizoli.examples.robotlegs2.snake.config
 		[Inject]
 		public var injector:IInjector;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Public methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * configure
+		 * Configure
 		 */
 		public function configure():void
 		{

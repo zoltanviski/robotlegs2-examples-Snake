@@ -21,6 +21,15 @@ package hu.vizoli.examples.robotlegs2.snake.config
 		[Inject]
 		public var commandMap:IEventCommandMap;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Public methods
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * Configure
+		 */
 		public function configure():void
 		{
 			this.commandMap.map( GameEvent.INIT, GameEvent ).toCommand( InitGameCommand );

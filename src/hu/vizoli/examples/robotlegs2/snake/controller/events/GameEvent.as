@@ -13,6 +13,12 @@ package hu.vizoli.examples.robotlegs2.snake.controller.events
 		public static const START:String 	= "start";
 		public static const END:String 		= "end";
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
 		 * GameEvent
 		 * 
@@ -23,8 +29,14 @@ package hu.vizoli.examples.robotlegs2.snake.controller.events
 			super(type);
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * clone
+		 * Clone the event
 		 */
 		override public function clone():Event
 		{

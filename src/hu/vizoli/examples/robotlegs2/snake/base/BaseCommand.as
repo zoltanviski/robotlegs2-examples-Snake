@@ -13,6 +13,15 @@ package hu.vizoli.examples.robotlegs2.snake.base
 		[Inject]
 		public var eventDispatcher:IEventDispatcher;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * Constructor
+		 */
 		public function BaseCommand() 
 		{
 			super();
