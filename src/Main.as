@@ -50,7 +50,7 @@ package
 		//--------------------------------------------------------------------------
 		
 		/**
-		 * @inheritDoc
+		 * Create children
 		 */
 		public function createChildren():void
 		{
